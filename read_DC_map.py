@@ -4,7 +4,7 @@ import matplotlib.cm as cm
 import numpy as np
 
 def main():
-    file = open("B_field_DC.dat", "r")
+    file = open("sim/B_field_DC.dat", "r")
 
     r = []
     z = []

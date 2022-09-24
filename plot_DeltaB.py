@@ -18,9 +18,9 @@ def read(file):
     return x, y
 
 def main():
-    file_simu1 = open("Bz_vs_z_at_r_0_simu_forDelta.txt", "r")
-    file_simu2 = open("Bz_vs_z_at_r_7,5_simu.txt", "r")
-    file_real = open("../KLOE_data/DeltaBz_vs_z.dat","r")
+    file_simu1 = open("sim/Bz_vs_z_at_r_0_simu_forDelta.txt", "r")
+    file_simu2 = open("sim/Bz_vs_z_at_r_7,5_simu.txt", "r")
+    file_real = open("data/DeltaBz_vs_z.dat","r")
 
     x_simu1 = []
     x_simu2 = []

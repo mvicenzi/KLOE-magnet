@@ -1,5 +1,5 @@
 def main():
-    file = open("B_field_map_conductor.dat", "r")
+    file = open("sim/B_field_map_conductor.dat", "r")
 
     r = []
     z = []

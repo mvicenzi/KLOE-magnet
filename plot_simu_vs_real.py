@@ -18,8 +18,8 @@ def read(file):
     return x, y
 
 def main():
-    file_simu = open("B_on_diameter_long_simu.txt", "r")
-    file_real = open("../KLOE_data/Bz_vs_r_at_z_0.dat","r")
+    file_simu = open("sim/B_on_diameter_long_simu.txt", "r")
+    file_real = open("data/Bz_vs_r_at_z_0.dat","r")
 
     x_simu = []
     x_real = []

@@ -10,7 +10,7 @@ dz=0.1
 ni = (r2-r1)/dr+1
 nj = (z2-z1)/dz+1
 
-handle=openfile("B_field_map_conductor.dat","w")
+handle=openfile("sim/B_field_map_conductor.dat","w")
 write(handle,"COLUMNS = r z B Br Bz ")
 write(handle,format("ZONE I=%d J=%d \n",ni,nj))
 
