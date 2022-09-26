@@ -56,15 +56,15 @@ def main():
     x_3 = x_3/10
     B_3 = B_3/10000  # 1 G = 10^-4 T
 
-    plt.plot(x_0,B_0, "ro", label = "$r=0\,cm$")
-    plt.plot(x_1,B_1, "bv", label = "$r=19.5\,cm$")
-    plt.plot(x_2,B_2, "gs", label = "$r=49.5\,cm$")
-    plt.plot(x_3,B_3, "y^", label = "$r=129.5\,cm$")
+    plt.plot(x_0,B_0, "ro", label = "KLOE data")
+    #plt.plot(x_1,B_1, "bv", label = "$r=19.5\,cm$")
+    #plt.plot(x_2,B_2, "gs", label = "$r=49.5\,cm$")
+    #plt.plot(x_3,B_3, "y^", label = "$r=129.5\,cm$")
 
-    plt.axis([0, 360, 0, 0.7]) #0 200 0.54 0.63
-    plt.xlabel('r [cm]')
+    #plt.axis([0, 360, 0, 0.7]) #0 200 0.54 0.63
+    plt.xlabel('z [cm]')
     plt.ylabel('$B_z$ [T]')
-    plt.title('KLOE data')
+    plt.title('$B_z$ vs $z$ at $r=0\,cm$')
     plt.rcParams['legend.numpoints'] = 1
 
     plt.legend()
